@@ -15,7 +15,7 @@ public class Score {
         System.out.println("   ***"+name+" 성적표 ***   ");
 
         System.out.println("국어 영어 수학 총점 평균");
-        System.out.printf("%d   %d   %d   %d   %d \n",korean,english,math,sum,eval);
+        System.out.printf("%d   %d   %d   %.2f   %.2f \n",korean,english,math,(float)(sum),(float)(eval));
 
     }   
 }

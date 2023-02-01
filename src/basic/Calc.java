@@ -13,7 +13,7 @@ public class Calc {
         System.out.printf("%d + %d = %d \n",a,b,a+b);
         System.out.printf("%d - %d = %d \n",a,b,a-b);
         System.out.printf("%d * %d = %d \n",a,b,a*b);
-        System.out.printf("%d / %d = %d \n",a,b,c);
+        System.out.printf("%d / %d = %.2f \n",a,b,(float)(c));
         
         // int d = Math.floorMod(a, b);
         // System.out.printf("320 % 258 = %d \n",d);
