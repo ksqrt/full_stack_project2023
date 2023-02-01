@@ -35,6 +35,14 @@ public class Variable01 {
         int f ;
         f = 'A';
         System.out.println("e = "+ f);
+
+        long g ;
+        g = 25L;
+        System.out.println("g = "+ g);
+
+        float h ;
+        h = 43.8F;
+        System.out.println("h = "+ h);
     }
 
 }
