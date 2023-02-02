@@ -36,7 +36,7 @@ public class Salary {
         System.out.print("수당 입력 : ");
         int pay2 = scan.nextInt();
         
-
+        System.out.println();
         System.out.println("***"+name+" "+rank+" 월급 ***");
         System.out.println("기본급 : "+Integer.toString(pay1).replaceAll("\\B(?=(\\d{3})+(?!\\d))", ","));
         System.out.println("수당 : "+Integer.toString(pay2).replaceAll("\\B(?=(\\d{3})+(?!\\d))", ","));
