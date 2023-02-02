@@ -16,6 +16,14 @@ public class Operater02 {
         else{
             System.out.println("홀수");
         }
+        
+        if (score%2 ==0 && score%3==0){
+            System.out.println("공배수이다");
+        }
+        else{
+            System.out.println("공배수 아니다");
+        }
+        
         scan.close();
 
     }
