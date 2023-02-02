@@ -11,5 +11,8 @@ public class MethodTest02 {
         double b = r.nextDouble();
 
         System.out.println("난수 = " +b);
+
+        int[] ar = new int[5];
+        ar[0]= 25;
     }   
 }
