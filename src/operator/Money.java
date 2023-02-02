@@ -1,4 +1,5 @@
 package src.operator;
+// import
 
 public class Money {
     public static void main(String[] args) {
@@ -8,11 +9,13 @@ public class Money {
         // 백원 : 3개
         // 십원 : 7개
         // 일원 : 8개
-
+        //
         int money = 5378;
+        // 문자열로 변환 한뒤 배열에 넣기
         String str1 = String.valueOf(money);
         char[] arr = str1.toCharArray();
         
+        // 배열에 넣은걸 순서대로 출력
         System.out.println("현금 "+ money +"개");
         System.out.println("천원 "+ arr[0]+"개");
         System.out.println("백원 "+ arr[1]+"개");
