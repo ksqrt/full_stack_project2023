@@ -9,7 +9,6 @@ public class Dice {
         dice2 = random.nextInt(6)+1;
         System.out.println("[실행결과]");
         System.out.printf("주사위 1 : %d\n주사위 2 : %d\n",dice1,dice2);
-        System.out.printf("주사위 값의 합 : %d\n",dice1+dice2);
         if (dice1> dice2){
             System.out.println("주사위 1 승");
         }
@@ -19,6 +18,7 @@ public class Dice {
         else{
             System.out.println("주사위 2 승");
         }
+        System.out.printf("주사위 값의 합 : %d\n",dice1+dice2);
     }   
 }
 

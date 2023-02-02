@@ -19,5 +19,8 @@ public class Operater01 {
         // else{
         //     System.out.println("불합격");
         // }
+        scan.close();
+
+
     }
 }
