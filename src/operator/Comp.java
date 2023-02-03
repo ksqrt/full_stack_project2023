@@ -1,5 +1,5 @@
 package src.operator;
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class Comp {
     public static void main(String[] args) {
