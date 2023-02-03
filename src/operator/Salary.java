@@ -1,5 +1,7 @@
 package src.operator;
 import java.util.Scanner;
+import java.text.DecimalFormat;
+
 // [문제] 월급 계산 프로그램 - 조건 연산자
 // 이름, 직급, 기본급, 수당을 입력하여 합계, 세금, 월급을 출력하시오
 // 단 합계가 5,000,000원 이상이면 3%
@@ -27,6 +29,8 @@ import java.util.Scanner;
 public class Salary {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        DecimalFormat decimalFormat = new DecimalFormat();
+
         System.out.print("이름입력 : ");
         String name = scan.nextLine();
         System.out.print("직급입력 : ");
