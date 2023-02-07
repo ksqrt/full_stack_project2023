@@ -55,32 +55,27 @@ public class BaseBall {
                     char[] arr1 = num1.toCharArray();
 
                     int count = 0;
-
+                    int ballcount = 0;
                     // 난수배열과 인풋 배열 인덱스를 반복문으로 비교하여 서로 같으면 count +1
                     for (int i=0 ; i<arr.length;i++){
                         if(arr[i]==arr1[i]){
                             count += 1;
                         }
+                        else if ((Arrays.toString(arr)).contains(String.valueOf(arr1[i]))){
+                            ballcount +=1;
+
+                        }
                     }
 
                     if (count == 3){
-                        System.out.printf("%d 스트라이크 %d볼\n",count,3-count);
+                        System.out.printf("%d 스트라이크 %d볼\n",count,ballcount);
                         System.out.println();
                         scan.close();
                         // 강제종료코드
                         System.exit(0);
                     }
-                    else if (count == 2){
-                        System.out.printf("%d 스트라이크 %d볼\n",count,3-count);
-
-                        System.out.println();
-                    }
-                    else if (count == 1){
-                        System.out.printf("%d 스트라이크 %d볼\n",count,3-count);
-                        System.out.println();
-                    }
                     else {
-                        System.out.printf("%d 스트라이크 %d볼\n",count,3-count);
+                        System.out.printf("%d 스트라이크 %d볼\n",count,ballcount);
                         System.out.println();
                     }
                     
