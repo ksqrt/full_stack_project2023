@@ -32,7 +32,6 @@ public class BaseBall {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String answer ;
-        int num;
         boolean tmp = true;
 
         while (tmp) {
@@ -42,18 +41,18 @@ public class BaseBall {
                 // while 빠저 나오기 
                 tmp = false;
                 // 난수생성 후 배열에 담기
-                int rand = (int)(Math.random()*1000);
+                int rand = (int)(Math.random()*900)+100;
                 String to = Integer.toString(rand);
                 char[] arr = to.toCharArray();
 
                 System.out.println("\n게임을 시작합니다");
                 System.out.println("\n난수"+rand);
                 while(true){
-                    System.err.print("\n숫자입력 : ");
+                    System.out.print("\n숫자입력 : ");
                     // 숫자를 입력받은뒤 배열에 담음
-                    num = scan.nextInt();
-                    String to1 = Integer.toString(num);
-                    char[] arr1 = to1.toCharArray();
+                    String num1 = scan.nextLine();
+                    // String to1 = Integer.toString(num);
+                    char[] arr1 = num1.toCharArray();
 
                     int count = 0;
 
@@ -65,22 +64,23 @@ public class BaseBall {
                     }
 
                     if (count == 3){
-                        System.out.println("3 스트라이크 0볼 ");
+                        System.out.printf("%d 스트라이크 %d볼\n",count,3-count);
                         System.out.println();
                         scan.close();
                         // 강제종료코드
                         System.exit(0);
                     }
                     else if (count == 2){
-                        System.out.println("2 스트라이크 1볼 ");
+                        System.out.printf("%d 스트라이크 %d볼\n",count,3-count);
+
                         System.out.println();
                     }
                     else if (count == 1){
-                        System.out.println("1 스트라이크 2볼 ");
+                        System.out.printf("%d 스트라이크 %d볼\n",count,3-count);
                         System.out.println();
                     }
                     else {
-                        System.out.println("0 스트라이크 3볼 ");
+                        System.out.printf("%d 스트라이크 %d볼\n",count,3-count);
                         System.out.println();
                     }
                     

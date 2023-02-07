@@ -5,8 +5,6 @@ public class MultiArray02 {
     public static void main(String[] args) {
 
         int[][] ar = new int[10][10];
-        
-        
         int count = 1;
         for(int i =0 ;i <ar.length; i++){
             for(int j =0 ; j <ar[i].length; j++){

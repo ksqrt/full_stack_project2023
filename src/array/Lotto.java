@@ -44,7 +44,7 @@ public class Lotto {
                     System.out.printf("%5d",lotto[j]);
                 }
                 System.out.println("");
-                if(i!= 0 && i%5 == 0){
+                if(i!= 0  && i%5 == 0){
                     System.out.println();
                 }
             }
