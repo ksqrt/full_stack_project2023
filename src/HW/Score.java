@@ -79,11 +79,7 @@ public class Score {
             System.out.printf("%5d",sum/subjectCnt);
             System.out.println("\n================================\n");
 
-
-
-
-
-
+            scan.close();
 
         }
 
