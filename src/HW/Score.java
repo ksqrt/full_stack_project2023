@@ -37,7 +37,7 @@ public class Score {
         cnt = Add(cnt,scan.nextLine());
         System.out.println(Arrays.toString(cnt));
         
-        // 인원수대로 반복
+        //  입력층 : 인원수대로 반복
         for(int i = 0; i<Integer.parseInt(cnt[0]);i++){
             String[] scorespace = {};
             System.out.print("\n이름입력 : ");
@@ -63,23 +63,22 @@ public class Score {
             }
             System.out.print("  총점   평균");
             System.out.println();
-            // 이름
+            // 이름 출력
             System.out.print(scorespace[0]);
-            // 점수 
+            // 점수 출력
             for(int j = 0; j<subjectCnt;j++){
                 System.out.printf("%5d",Integer.parseInt(scorespace[j+1+subjectCnt]));
             }
-            // 총점
+            // 총점 구하기
             int sum = 0 ;
             for(int j = 1+subjectCnt; j<1+subjectCnt*2;j++){
                 sum =sum + Integer.parseInt(scorespace[j]);
             }
+            // 총점 출력
             System.out.printf("%5d",sum);
-            // 평균
             System.out.printf("%5d",sum/subjectCnt);
             System.out.println("\n================================\n");
 
-            scan.close();
 
         }
 
