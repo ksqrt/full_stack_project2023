@@ -37,10 +37,30 @@ public class BaseBall {
         while (tmp) {
             System.out.print("게임을 실행하시겠습니까?(Y/N): ");
             answer = scan.nextLine();
-            if(answer.charAt(0) == 'y'){
+            if(answer.charAt(0) == 'y' || answer.equals("Y")){
                 // while 빠저 나오기 
                 tmp = false;
                 // 난수생성 후 배열에 담기
+                
+                // 중복없는 난수생성 후 배열에 담기
+                // Integer[] rand = new Integer[3];
+                // for(int i =0; i<3; i++){
+                //     rand[i] = (int)((Math.random()*10))+1;
+                // }
+                    
+                // Set<Integer> set = new HashSet<Integer>(Arrays.asList(rand));
+                // Integer[] arr = set.toArray(new Integer[0]);
+                
+                // while (arr.length != 3){
+                //     for(int i =0; i<3; i++){
+                //         rand[i] = (int)((Math.random()*10))+1;
+                //     }
+                //     set = new HashSet<Integer>(Arrays.asList(rand));
+                //     arr = set.toArray(new Integer[0]);
+                // }
+
+
+
                 int rand = (int)(Math.random()*900)+100;
                 String to = Integer.toString(rand);
                 char[] arr = to.toCharArray();
