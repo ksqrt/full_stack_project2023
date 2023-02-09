@@ -16,6 +16,18 @@ class Member{
         this.name = name;
         this.address = address;
     }
+    public int getAge() {
+        return this.age;
+    }
+    public String getCallnum() {
+        return this.callnum;
+    }
+    public String getName() {
+        return this.name;
+    }
+    public String getAddress() {
+        return this.address;
+    }
 
 }
 
@@ -40,8 +52,7 @@ public class Age {
             int number = scan.nextInt();
             scan.nextLine();
 
-            if(number == 1 && count <4){
-                count ++;
+            if(number == 1 && count <5){
                 System.out.print("이름 입력 : ");
                 String name = scan.nextLine();
                 System.out.print("나이 입력 : ");
@@ -52,9 +63,22 @@ public class Age {
                 System.out.print("주소 입력 : ");
                 String address = scan.nextLine();
                 member[count] =new Member(age,callnum,name,address);
+                count ++;
             }
-            else if (number == 1 && count >4){
-                System.out.println("정원이 꽉 찼습니다.");
+            else if (number == 1 && count >=5){
+                System.out.println("!!!!! 5명의 정원이 꽉 찼습니다.!!!!!");
+            }
+            else if (number == 2){
+                System.out.println("출력");
+                for(int i=0; i<count; i++){
+                    System.out.println("=============================");
+                    System.out.println("나이 : "+(member[i].getAge()));
+                    System.out.println("이름 : "+(member[i].getName()));
+                    System.out.println("핸드폰 : "+(member[i].getCallnum()));
+                    System.out.println("주소 : "+(member[i].getAddress()));
+                    System.out.println("=============================");
+                    
+                }
             }
             else if (number ==5 ){
                 System.out.println("나가기");
