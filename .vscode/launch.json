@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ChildMain",
+            "request": "launch",
+            "mainClass": "src.inheritance.ChildMain",
+            "projectName": "full_stack_project2023_698fde97"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

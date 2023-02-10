@@ -77,11 +77,15 @@ public class Replace {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("문자열 입력 : ");
+        // 입력받고 소문자로 다바꾸기
         String _str = scan.nextLine();
+        _str= _str.toLowerCase();
         System.out.print("현재문자열 입력 : ");
         String now_str = scan.nextLine();
+        now_str=now_str.toLowerCase();
         System.out.print("바뀔문자열 입력 : ");
         String replace_str = scan.nextLine();
+        replace_str=replace_str.toLowerCase();
         Case case1= new Case(_str,now_str,replace_str);
 
         String[] ar = new String[2];
