@@ -2,14 +2,10 @@ package src.HW;
 import java.util.Scanner;
 
 class Member{
+    Scanner scan = new Scanner(System.in);
     private int age;
     private String name,address,callnum;
-    public Member(){
-        this.age = 0;
-        this.callnum = "010-1234-5678";
-        this.name = "홍길동";
-        this.address = "서울";
-    }
+    
     public Member(int age,String callnum,String name,String address) {
         this.age = age;
         this.callnum = callnum;
@@ -27,6 +23,20 @@ class Member{
     }
     public String getAddress() {
         return this.address;
+    }
+
+    public void update(String callnum){
+        if(callnum==this.callnum){
+            System.out.println("수정 할 나이 입력 : ");
+            this.age = scan.nextInt();
+            scan.nextLine();
+            System.out.println("수정 할 이름 입력 : ");
+            this.name = scan.nextLine();
+            System.out.println("수정 할 주소 입력 : ");
+            this.address = scan.nextLine();
+            System.out.println("1 row(s) updated");
+        }
+      
     }
 
 }
@@ -77,8 +87,15 @@ public class Age {
                     System.out.println("핸드폰 : "+(member[i].getCallnum()));
                     System.out.println("주소 : "+(member[i].getAddress()));
                     System.out.println("=============================");
-                    
                 }
+            }
+            else if (number ==3){
+                System.out.print("핸드폰 번호 입력 :");
+                String callnum1 = scan.nextLine();
+                for(int i=0; i<count; i++){
+                    member[i].update(callnum1);
+                }
+                
             }
             else if (number ==5 ){
                 System.out.println("나가기");
