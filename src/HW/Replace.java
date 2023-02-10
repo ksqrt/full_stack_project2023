@@ -46,17 +46,29 @@ class Case{
 
     public String[] replace() {
         int count = 0;
+        int tmp = 0;
+
         while(_str.indexOf(now_str)!=-1){
+            // 입력한 문자열의 크기가 작을떄의 경우
+            if(_str.length() < now_str.length()){
+                tmp =1;
+            }
+            // 문자열 치환 하고 카운트 1
             _str=_str.replaceFirst(now_str,replace_str);
-            count =+ 1;
+            count = count+1;
         }
         
         String cnt =Integer.toString(count);
 
-        
-        return new String[]{_str,cnt};
-      
-
+        if(count >0){
+            return new String[]{_str,cnt+"번 치환"};
+        }
+        else if (count == 0 && tmp ==1){
+            return new String[]{"입력한 문자열의 크기가 작습니다","치환 할수없습니다."};
+        }
+        else{
+            return new String[]{"치환 할 수 없습니다.",cnt+"번 치환"};
+        }
         
     }
 }
@@ -64,11 +76,11 @@ class Case{
 public class Replace {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("문자열 입력");
+        System.out.print("문자열 입력 : ");
         String _str = scan.nextLine();
-        System.out.println("현재문자열 입력");
+        System.out.print("현재문자열 입력 : ");
         String now_str = scan.nextLine();
-        System.out.println("바뀔문자열 입력");
+        System.out.print("바뀔문자열 입력 : ");
         String replace_str = scan.nextLine();
         Case case1= new Case(_str,now_str,replace_str);
 
