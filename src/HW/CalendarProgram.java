@@ -22,6 +22,7 @@ public class CalendarProgram {
         Calendar cal = Calendar.getInstance();
         cal.set(year, month, 1);
         int startDay = cal.get(Calendar.DAY_OF_WEEK) - 1;
+        // 마지막 날짜 메소드 -1 = 마지막 날짜
         int lastDay = cal.getActualMaximum(Calendar.DATE);
         System.out.println("일\t월\t화\t수\t목\t금\t토");
         for (int i = 0; i < startDay; i++) {
@@ -29,6 +30,7 @@ public class CalendarProgram {
         }
         for (int i = 1; i <= lastDay; i++) {
             System.out.print(i + "\t");
+            // 일요일이면 줄 바꿈
             if ((i + startDay) % 7 == 0) {
                 System.out.println();
             }
@@ -39,8 +41,8 @@ public class CalendarProgram {
     // 년도와 월, 달력을 출력한다
     public void display() {
         System.out.println();
-        System.out.println("년도: " + year);
-        System.out.println("월: " + (month + 1));
+        // System.out.println("년도: " + year);
+        // System.out.println("월: " + (month + 1));
         System.out.println();
         calc();
     }
