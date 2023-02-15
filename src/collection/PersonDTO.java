@@ -1,5 +1,7 @@
 package src.collection;
 
+import java.lang.Comparable;
+
 public class PersonDTO {
     private String name;
     private int age;

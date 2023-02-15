@@ -16,8 +16,6 @@ public class SetMain {
         set.add("기린");
         set.add("코끼리");
 
-        Iterator it = set.iterator();
-
     }
 
 }
