@@ -1,294 +1,301 @@
 {
-    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
-    // 기존 특성에 대한 설명을 보려면 가리킵니다.
-    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Launch ExamMain",
-            "request": "launch",
-            "mainClass": "src.HW.ExamMain",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch ChildMain",
-            "request": "launch",
-            "mainClass": "src.inheritance.ChildMain",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Launch Age",
-            "request": "launch",
-            "mainClass": "src.HW.Age",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch ComputeMain",
-            "request": "launch",
-            "mainClass": "src.HW.ComputeMain",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch MultiArray05",
-            "request": "launch",
-            "mainClass": "src.HW.MultiArray05",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Score",
-            "request": "launch",
-            "mainClass": "src.HW.Score",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Score2",
-            "request": "launch",
-            "mainClass": "src.HW.Score2",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Array05",
-            "request": "launch",
-            "mainClass": "src.array.Array05",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch BaseBall",
-            "request": "launch",
-            "mainClass": "src.array.BaseBall",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Lotto",
-            "request": "launch",
-            "mainClass": "src.array.Lotto",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch SelectionSort",
-            "request": "launch",
-            "mainClass": "src.array.SelectionSort",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Calc",
-            "request": "launch",
-            "mainClass": "src.basic.Calc",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch MethodTest",
-            "request": "launch",
-            "mainClass": "src.basic.MethodTest",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch MethodTest02",
-            "request": "launch",
-            "mainClass": "src.basic.MethodTest02",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Numbertest01",
-            "request": "launch",
-            "mainClass": "src.basic.Numbertest01",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Score(1)",
-            "request": "launch",
-            "mainClass": "src.basic.Score",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Variable01",
-            "request": "launch",
-            "mainClass": "src.basic.Variable01",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Variable02",
-            "request": "launch",
-            "mainClass": "src.basic.Variable02",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch PersonMain",
-            "request": "launch",
-            "mainClass": "src.class_.PersonMain",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Sungjukmain",
-            "request": "launch",
-            "mainClass": "src.class_.Sungjukmain",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch ThisMain",
-            "request": "launch",
-            "mainClass": "src.class_.ThisMain",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch ConstructorMain",
-            "request": "launch",
-            "mainClass": "src.constructor.ConstructorMain",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch VarArgs",
-            "request": "launch",
-            "mainClass": "src.constructor.VarArgs",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch If01",
-            "request": "launch",
-            "mainClass": "src.if_.If01",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch if02",
-            "request": "launch",
-            "mainClass": "src.if_.if02",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch if03",
-            "request": "launch",
-            "mainClass": "src.if_.if03",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch MultiArray01",
-            "request": "launch",
-            "mainClass": "src.multi.MultiArray01",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch MultiArray02",
-            "request": "launch",
-            "mainClass": "src.multi.MultiArray02",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch MultiArray04",
-            "request": "launch",
-            "mainClass": "src.multi.MultiArray04",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch MultiArray05(1)",
-            "request": "launch",
-            "mainClass": "src.multi.MultiArray05",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Boxing",
-            "request": "launch",
-            "mainClass": "src.operator.Boxing",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Comp",
-            "request": "launch",
-            "mainClass": "src.operator.Comp",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Dice",
-            "request": "launch",
-            "mainClass": "src.operator.Dice",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Money",
-            "request": "launch",
-            "mainClass": "src.operator.Money",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Operater01",
-            "request": "launch",
-            "mainClass": "src.operator.Operater01",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Operater02",
-            "request": "launch",
-            "mainClass": "src.operator.Operater02",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Operater03",
-            "request": "launch",
-            "mainClass": "src.operator.Operater03",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Operater04",
-            "request": "launch",
-            "mainClass": "src.operator.Operater04",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Operater05",
-            "request": "launch",
-            "mainClass": "src.operator.Operater05",
-            "projectName": "full_stack_project2023_698fde97"
-        },
-        {
-            "type": "java",
-            "name": "Launch Salary",
-            "request": "launch",
-            "mainClass": "src.operator.Salary",
-            "projectName": "full_stack_project2023_698fde97"
-        }
-    ]
+  // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+  // 기존 특성에 대한 설명을 보려면 가리킵니다.
+  // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch PersonSort$Main",
+      "request": "launch",
+      "mainClass": "src.collection.PersonSort$Main",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch ExamMain",
+      "request": "launch",
+      "mainClass": "src.HW.ExamMain",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch ChildMain",
+      "request": "launch",
+      "mainClass": "src.inheritance.ChildMain",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Age",
+      "request": "launch",
+      "mainClass": "src.HW.Age",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch ComputeMain",
+      "request": "launch",
+      "mainClass": "src.HW.ComputeMain",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch MultiArray05",
+      "request": "launch",
+      "mainClass": "src.HW.MultiArray05",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Score",
+      "request": "launch",
+      "mainClass": "src.HW.Score",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Score2",
+      "request": "launch",
+      "mainClass": "src.HW.Score2",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array05",
+      "request": "launch",
+      "mainClass": "src.array.Array05",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch BaseBall",
+      "request": "launch",
+      "mainClass": "src.array.BaseBall",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Lotto",
+      "request": "launch",
+      "mainClass": "src.array.Lotto",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch SelectionSort",
+      "request": "launch",
+      "mainClass": "src.array.SelectionSort",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Calc",
+      "request": "launch",
+      "mainClass": "src.basic.Calc",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch MethodTest",
+      "request": "launch",
+      "mainClass": "src.basic.MethodTest",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch MethodTest02",
+      "request": "launch",
+      "mainClass": "src.basic.MethodTest02",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Numbertest01",
+      "request": "launch",
+      "mainClass": "src.basic.Numbertest01",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Score(1)",
+      "request": "launch",
+      "mainClass": "src.basic.Score",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Variable01",
+      "request": "launch",
+      "mainClass": "src.basic.Variable01",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Variable02",
+      "request": "launch",
+      "mainClass": "src.basic.Variable02",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch PersonMain",
+      "request": "launch",
+      "mainClass": "src.class_.PersonMain",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Sungjukmain",
+      "request": "launch",
+      "mainClass": "src.class_.Sungjukmain",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch ThisMain",
+      "request": "launch",
+      "mainClass": "src.class_.ThisMain",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch ConstructorMain",
+      "request": "launch",
+      "mainClass": "src.constructor.ConstructorMain",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch VarArgs",
+      "request": "launch",
+      "mainClass": "src.constructor.VarArgs",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch If01",
+      "request": "launch",
+      "mainClass": "src.if_.If01",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch if02",
+      "request": "launch",
+      "mainClass": "src.if_.if02",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch if03",
+      "request": "launch",
+      "mainClass": "src.if_.if03",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch MultiArray01",
+      "request": "launch",
+      "mainClass": "src.multi.MultiArray01",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch MultiArray02",
+      "request": "launch",
+      "mainClass": "src.multi.MultiArray02",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch MultiArray04",
+      "request": "launch",
+      "mainClass": "src.multi.MultiArray04",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch MultiArray05(1)",
+      "request": "launch",
+      "mainClass": "src.multi.MultiArray05",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Boxing",
+      "request": "launch",
+      "mainClass": "src.operator.Boxing",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Comp",
+      "request": "launch",
+      "mainClass": "src.operator.Comp",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Dice",
+      "request": "launch",
+      "mainClass": "src.operator.Dice",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Money",
+      "request": "launch",
+      "mainClass": "src.operator.Money",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Operater01",
+      "request": "launch",
+      "mainClass": "src.operator.Operater01",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Operater02",
+      "request": "launch",
+      "mainClass": "src.operator.Operater02",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Operater03",
+      "request": "launch",
+      "mainClass": "src.operator.Operater03",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Operater04",
+      "request": "launch",
+      "mainClass": "src.operator.Operater04",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Operater05",
+      "request": "launch",
+      "mainClass": "src.operator.Operater05",
+      "projectName": "full_stack_project2023_698fde97"
+    },
+    {
+      "type": "java",
+      "name": "Launch Salary",
+      "request": "launch",
+      "mainClass": "src.operator.Salary",
+      "projectName": "full_stack_project2023_698fde97"
+    }
+  ]
 }

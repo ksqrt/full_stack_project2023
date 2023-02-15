@@ -14,13 +14,20 @@ public class SungJukDelete implements SungJuk {
         String name1 = scan.nextLine();
         int check = 0;
 
-        for (SungJukDTO sungJukDTO : arrayList) {
+        for (int i = 0; i < arrayList.size(); i++) {
             // 입력한 이름이 있으면 삭제하고 채크카운트 +1
-            if (sungJukDTO.getName() == name1) {
-                arrayList.remove(sungJukDTO);
+            if (arrayList.get(i).getName().equals(name1)) {
+                arrayList.remove(i);
                 check = check + 1;
             }
         }
+        // for (SungJukDTO sungJukDTO : arrayList) {
+        // // 입력한 이름이 있으면 삭제하고 채크카운트 +1
+        // if (sungJukDTO.getName().equals(name1)) {
+        // arrayList.remove(sungJukDTO);
+        // check = check + 1;
+        // }
+        // }
         if (check == 0) {
             System.out.println("회원의 정보는 없습니다.");
         } else {
