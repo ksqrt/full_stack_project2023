@@ -32,11 +32,11 @@ public class SungJukService {
                 sungJuk = new SungJukList();
                 sungJuk.execute(arrayList);
             } else if (num == 3) {
-                // sungJuk = new SungJukUpdate();
-                // sungJuk.execute();
+                sungJuk = new SungJukUpdate();
+                sungJuk.execute(arrayList);
             } else if (num == 4) {
-                // sungJuk = new SungJukDelete();
-                // sungJuk.execute();
+                sungJuk = new SungJukDelete();
+                sungJuk.execute(arrayList);
             } else if (num == 5) {
                 // sungJuk = new SungJukSort();
                 // sungJuk.execute();
