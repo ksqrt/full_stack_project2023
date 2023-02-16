@@ -1,5 +1,6 @@
-package src.class_;
+package class_;
 // [문제] 사지선다형
+
 // - 총 5문제의 답을 입력받는다
 // - 정답은 "11111" 이다
 // - 맞으면 'O', 틀리면 'X'
@@ -39,21 +40,21 @@ class Exam {
     private String dap = null;
     private char[] ox = null;
     private int score = 0;
-    private final String JUNG = "11111"; //상수화
-    
+    private final String JUNG = "11111"; // 상수화
+
     // 생성자
-    public Exam(String name, String dap,int score){
+    public Exam(String name, String dap, int score) {
         this.name = name;
         this.dap = dap;
-        this.score =score;
+        this.score = score;
     }
     // 메소드
-    
-        // compare() - 비교
-        // getName()
-        // getOx()
-        // getScore()
-    public void compare(){
+
+    // compare() - 비교
+    // getName()
+    // getOx()
+    // getScore()
+    public void compare() {
 
     }
 
