@@ -1,4 +1,4 @@
-package class_;
+package src.class_;
 // [문제] 사지선다형
 
 // - 총 5문제의 답을 입력받는다
