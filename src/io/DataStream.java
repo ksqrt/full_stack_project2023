@@ -2,9 +2,7 @@ package src.io;
 
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
+
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
