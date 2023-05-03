@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -48,6 +49,11 @@ public class BoardController {
         return list;
     }
 
+    @GetMapping("/hello")
+    public String hello(Model model) {
+        model.addAttribute("name", "John Doe");
+        return "hello";
+    }
 }
 
 

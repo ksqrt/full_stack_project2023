@@ -32,7 +32,7 @@ public class BoardController {
         boardDTO.setSeq(1);
         boardDTO.setName("김동빈");
         boardDTO.setSubject("뚜루dd=");
-        boardDTO.setContent("빠라빠라빰ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ");
+        boardDTO.setContent("빠라빠라빰");
         boardDTO.setLogtime(new Date());
         list.add(boardDTO);
 
