@@ -1,13 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import Dog from './Dog.js'
-import Test1 from './test1.js'
-import Test2 from './test2.js'
+import Dog from './component/Dog.js'
+import Test1 from './component/test1.js'
+import Test2 from './component/test2.js'
+import  Test3 from  './component/test3.js'
 
 const App = () =>{
   
-  let title = "신상명세서"
-  const name = "홍길동"
 
   return (
  
@@ -16,6 +14,7 @@ const App = () =>{
       <Dog></Dog>
       <Test1></Test1>
       <Test2></Test2>
+      <Test3></Test3>
     </div>
   )
 }
