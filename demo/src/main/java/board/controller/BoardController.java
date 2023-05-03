@@ -23,6 +23,8 @@ public class BoardController {
         return "안녕하세요 " + name + "님";
     }
 
+
+
     @GetMapping(value="/board/getBoardList")
     public List<BoardDTO> getBoardList() { //RestController가 객체가 넘어오면 자동으로 JSON형식으로 바꿔줌
         List<BoardDTO> list = new ArrayList<BoardDTO>();
