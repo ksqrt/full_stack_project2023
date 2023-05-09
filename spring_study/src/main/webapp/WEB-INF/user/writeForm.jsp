@@ -5,7 +5,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Insert title here</title>
+<style type="text/css">
+    #writeForm div{
+        color : red;
+        font-size : 8pt;
+        font-weight : bold;
+    }
+</style>
 </head>
+
 <body>
     <form id = "writeForm">
         <style>
@@ -21,7 +29,9 @@
             </tr>
             <tr>
                 <td><label for="id">아이디</label></td>
-                <td><input type="password" id="id" name="id"></td>
+                <td><input type="text" id="id" name="id">
+                    <div id="idDiv"></div></td>
+
             </tr>
             <tr>
                 <td><label for="pwd">비번:</label></td>
