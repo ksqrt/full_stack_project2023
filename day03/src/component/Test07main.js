@@ -34,7 +34,7 @@ const Test07main = () => {
         })
     }
     return (
-        <div>
+        <div className='wrap'>
             {
                 count === 1 && <Test07input name = {name} age ={age} addr={addr} phone = {phone} onInput={onInput} onNext={onNext}></Test07input>
             }
