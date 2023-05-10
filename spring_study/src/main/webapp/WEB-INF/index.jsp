@@ -11,7 +11,7 @@
 <h4>
     <div><a href ="/user/writeForm">등록</a></div>
     <div><a href ="/user/list">목록</a></div>
-    <div><a href ="수정">수정</a></div>
+    <div><a href ="/user/updateForm">수정</a></div>
     <div><a href ="삭제">삭제</a></div>
 
 </h4>

@@ -1,3 +1,4 @@
+// 목록
 $(function(){
     console.log("js 실행");
     $.ajax({
@@ -27,4 +28,23 @@ $(function(){
 })
 
 
-
+// 검색
+$('#searchBtn').click(function(){
+    if($('#keyword').val() == ''){
+        alert('검색어를 입력하세요')
+    }
+    else{
+        $.ajax({
+            type : 'post',
+            url : '/user/search',
+            data : $("#searchForm").serialize(),
+            dataType : 'json',
+            success: function (data) {
+                console.log(JSON.stringify(data));
+            },
+            error: function (err) {
+                console.log(err)
+            }
+        })
+    }
+})
