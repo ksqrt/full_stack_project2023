@@ -1,12 +1,12 @@
 import React from 'react';
 import Test08Big from './Test08Big';
 import Test08List from './Test08List';
-
-const Test08View = () => {
+import '../css/Test08.css'
+const Test08View = ({data,one,onView}) => {
     return (
-        <div className='BigView'>
-            <Test08Big></Test08Big>
-            <Test08List></Test08List>
+        <div className='bigview'>
+            <Test08Big  one ={one} ></Test08Big>
+            <Test08List data ={data} onView={onView}></Test08List>
         </div>
     );
 };
