@@ -7,6 +7,7 @@ import user.bean.UserDTO;
 import user.service.UserService;
 
 import java.util.List;
+import java.util.Map;
 
 @Controller
 @RequestMapping("user")
@@ -39,6 +40,18 @@ public class UserController {
     public String isExistId(@RequestParam String id){
         String isExistId = userService.isExistId(id);
         return isExistId;
+    }
+
+    @PostMapping("search")
+    @ResponseBody
+    public List<UserDTO> search(@RequestParam Map<String,String> map) {
+        List<UserDTO> list = userService.search(map);
+        return list;
+    }
+
+    @GetMapping("updateForm")
+    public String updateForm(){
+        return "user/list";
     }
 }
 
