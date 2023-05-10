@@ -52,4 +52,11 @@ public class UserServiceImpl implements UserService{
         }
 
     }
+
+    @Override
+    public Optional<UserDTO> getUser(String id) {
+        Optional<UserDTO> userDTO = userDAO.findById(id);
+        System.out.println(userDTO);
+        return userDTO;
+    }
 }

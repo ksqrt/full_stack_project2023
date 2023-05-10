@@ -8,6 +8,7 @@ import user.service.UserService;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 @Controller
 @RequestMapping("user")
@@ -51,8 +52,16 @@ public class UserController {
 
     @GetMapping("updateForm")
     public String updateForm(){
-        return "user/list";
+        return "user/updateForm";
     }
+    @PostMapping("getUser")
+    @ResponseBody
+    public Optional<UserDTO> getUser(@RequestParam String id) {
+        Optional<UserDTO> userDTO = userService.getUser(id);
+        return userDTO;
+    }
+
+
 }
 
 
