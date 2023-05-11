@@ -11,7 +11,7 @@ const Test02Sub = () => {
             console.log('cleanup')
             window.removeEventListener('mousemove',onMove)
         }
-    })
+    },[])
 
     const onMove = (e) =>{
         setX(e.clientX)
