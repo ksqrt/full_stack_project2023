@@ -31,7 +31,7 @@ const Test05 = () => {
     // 검색버튼 useMemo
     const onSearch = ()=>{
         setRefresh(refresh+1)
-    }
+        }
 
 
     return (
