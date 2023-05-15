@@ -1,10 +1,12 @@
 import React from 'react';
 
-const Test08Big = () => {
+const Test08Big = ({one}) => {
+    const{id,img,title} = one;
     return (
         <div className='bigimg'>
-            
-        </div>
+            <h2>{title}</h2>
+            <img src  = {img}></img>
+       </div>
     );
 };
 
