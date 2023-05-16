@@ -11,6 +11,12 @@ $(function(){
             data : 'id='+$('#search-input').val(),
             success: function (data) {
                 console.log(JSON.stringify(data));
+                if(data){
+                    $('#updateDiv').show();
+                }else{
+                    $('#updateDiv').show();
+                }
+
 
             },
             error: function (err) {

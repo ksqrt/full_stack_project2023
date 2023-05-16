@@ -1,6 +1,7 @@
 package user.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 import user.bean.UserDTO;
 
@@ -15,5 +16,8 @@ public interface UserDAO extends JpaRepository<UserDTO,String> {
     public List<UserDTO> findByNameContaining(String keword);
 
     public List<UserDTO> findByIdContaining(String keword);
+
+    @Query("Select dto from UserDTO dto where dto.name like '%' || :keyword || '%' ")
+    public List<userDTO> getUserSearchName(String keyword);
 }
 

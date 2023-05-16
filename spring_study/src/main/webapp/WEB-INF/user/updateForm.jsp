@@ -39,7 +39,10 @@
             </tr>
 
             <tr>
-                <td colspan="2" align="center"><button value="로그인" id="updateBtn"/>클릭</td>
+                <td colspan="2" align="center">
+                    <button value="로그인" id="updateBtn"/>클릭
+                    <input type ="reset" value ="취소">
+                </td>
             </tr>
         </table>
     </form>
